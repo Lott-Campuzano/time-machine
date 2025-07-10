@@ -1,0 +1,8 @@
+[Unit]
+Description=Mi servicio super-útil
+
+[Service]
+ExecStart=/home/lcampuzano/scripts/stop-ssh.sh
+
+[Install]
+WantedBy=multi-user.target
