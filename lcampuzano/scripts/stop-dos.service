@@ -2,7 +2,7 @@
 Description=Mi servicio super-útil
 
 [Service]
-ExecStart=/home/lcampuzano/scripts/ssh-stop.sh
+ExecStart=/home/lcampuzano/scripts/dos-stop.sh
 
 [Install]
 WantedBy=multi-user.target
