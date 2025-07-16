@@ -1,0 +1,8 @@
+[Unit]
+Description=Mi servicio super-útil
+
+[Service]
+ExecStart=/home/lcampuzano/respaldos/scriptsssh.sh
+
+[Install]
+WantedBy=multi-user.target

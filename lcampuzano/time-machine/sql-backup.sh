@@ -7,16 +7,16 @@
 # Live Love Hack
 
 # Usuario de la base de datos
-db_user="user"
+db_user="root"
 
 # Contraseña del usuario
-db_password="pass"
+db_password=""
 
 # Nombre de la base de datos que deseas respaldar
 db_name="juan"
 
 # Directorio donde guardarás el respaldo
-backup_dir="/home/lcampuzano/respaldos"
+backup_dir="/tmp"
 
 # Fecha y hora en el formato deseado
 backup_date=$(date +"%Y-%m-%d-%H:%M:%S")

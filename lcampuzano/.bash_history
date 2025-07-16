@@ -455,3 +455,17 @@ sudo apt update && aptupgrde
 sudo apt update && apt upgrade
 su apt update && apt upgrade
 su
+cp -r /home/lcampuzano time-machine/
+su
+su -
+exit
+ls
+cd --
+ls
+cd /home
+cd lcampuzano
+ls
+cd scripts
+ls
+nano sql-backup.sh
+su

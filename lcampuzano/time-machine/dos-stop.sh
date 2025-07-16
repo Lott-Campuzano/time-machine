@@ -15,7 +15,7 @@ echo "IP target: $ip_target"
 
 
 
-if [ $number_of_connections  -gt 150 ]; then
+if [ $number_of_connections  -gt 99 ]; then
     echo "Bloquear IP"
     if iptables -C INPUT -s $ip_target -j DROP  2>/dev/null; then
 	echo "La regla ya existe"
