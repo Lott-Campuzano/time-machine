@@ -1,0 +1,10 @@
+// Cambiar zona horaria
+date
+timedatectl set-timezone America/Mexico_City
+
+//Actualizar el sistema
+apt update & apt upgrade
+apt-get update & apt-get upgrade
+
+//Instalar las herramientas
+apt install mariadb-server apache2 php net-tools rsync slowhttptest gocryptfs composer php-mysql tar 
